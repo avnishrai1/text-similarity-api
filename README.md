@@ -56,3 +56,6 @@ curl -X POST "https://YOUR-SERVICE.onrender.com/similarity" \
 - We map cosine similarity from [-1, 1] to [0, 1] as required by the assignment.
 - The model is loaded once and kept in memory for fast inference.
 - Code is fully commented and concise.
+
+
+xyz
