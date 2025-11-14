@@ -6,6 +6,8 @@ Run similarity over the provided dataset CSV and save results.
 
 Usage:
     python batch_infer.py --input DataNeuron_Text_Similarity.csv --output scored.csv
+This script reads a CSV file with pairs of texts, computes their semantic similarity
+using the `get_similarity` function from `model.py`, and writes the results to a new CSV file.
 """
 
 import argparse
