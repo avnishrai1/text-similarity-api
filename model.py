@@ -11,6 +11,7 @@ to strictly meet the assignment requirement.
 Functions:
 - normalize_text: basic cleanup (kept minimal since transformers are robust)
 - get_similarity: returns a float in [0, 1] rounded to 4 decimals
+- _cosine_to_unit_interval: helper to map cosine similarity to [0, 1]
 """
 
 from typing import Optional
