@@ -11,6 +11,7 @@ to strictly meet the assignment requirement.
 Functions:
 - normalize_text: basic cleanup (kept minimal since transformers are robust)
 - get_similarity: returns a float in [0, 1] rounded to 4 decimals
+-Avnish Mahan Hai 
 """
 
 from typing import Optional
